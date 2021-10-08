@@ -58,7 +58,7 @@ nav > a {
   color: var(--color-text);
   font-weight: 700;
   font-size: 28px;
-  font-family: Pacifico, serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav ul {
@@ -80,8 +80,52 @@ nav ul li a {
   padding: 10px 0;
   width: 100%;
   text-decoration: none;
-  color: var(--color-black);
+  color: var(--color-text);
   font-weight: bold;
+}
+
+#lista-menu li a:hover {
+  color: var(--color-text);
+  font-weight: bold;
+  border-bottom: 4px solid var(--color-primary);
+}
+
+/* 
+SECTIONS 
+*/
+/* --- section-1 --- */
+#section-1 {
+  background-color: var(--color-primary);
+
+  display: flex;
+  flex-direction: column;
+}
+
+#section-1 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  font-size: 30px;
+}
+
+#section-1 h2 {
+  color: var(--color-secondary);
+}
+
+#section-1 p {
+  color: var(--color-text);
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.button {
+  background-color: var(--color-text);
+  border: none;
+  color: var(--background-color);
+  padding: 15px 45px;
+  font-size: 18px;
+  margin: 20px 2px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 @media screen and (min-width: 768px) {
@@ -96,5 +140,27 @@ nav ul li a {
   nav ul {
     flex-direction: row;
     width: 50%;
+  }
+
+  /* 
+    SECTIONS 
+  */
+  #section-1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #section-1 img {
+    width: 450px;
+  }
+
+  #section-1 h2 {
+    width: 100%;
+  }
+
+  #section-1 div {
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 40px;
   }
 }
