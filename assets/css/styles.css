@@ -105,13 +105,13 @@ SECTIONS
 #section > div {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 40px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #section p {
   color: var(--color-text);
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .button {
@@ -179,12 +179,13 @@ p.ceo {
 }
 
 .icons i {
-  margin-left: 20px;
-  font-size: 40px;
+  margin-left: 10px;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .data {
-  width: 400px;
+  width: 250px;
   background-color: #fff;
   padding: 10px;
   text-align: center;
@@ -235,6 +236,10 @@ footer p {
     flex-wrap: wrap;
   }
 
+  #section > div {
+    font-size: 30px;
+  }
+
   #section img {
     width: 450px;
   }
@@ -254,6 +259,12 @@ footer p {
     margin: 50px auto;
   }
 
+  /* --- section-5 --- */
+
+  .icons i {
+    margin-left: 20px;
+    font-size: 40px;
+  }
   .data {
     width: 600px;
     background-color: #fff;
