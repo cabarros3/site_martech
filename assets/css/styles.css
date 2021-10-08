@@ -22,7 +22,8 @@ html {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -184,11 +185,31 @@ p.ceo {
 
 .data {
   width: 400px;
-  height: 100px;
   background-color: #fff;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   margin: 50px auto;
+}
+
+/* --- FOOTER --- */
+footer {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background-color: #90a4ac;
+  padding: 10px;
+
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  margin: 20px;
 }
 
 @media screen and (min-width: 768px) {
