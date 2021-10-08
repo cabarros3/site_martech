@@ -158,6 +158,26 @@ p.ceo {
   text-align: center;
 }
 
+/* --- section-4 --- */
+
+.grid-section-4 {
+  text-align: center;
+}
+
+/* #testimonials p {
+  font-size: 25px;
+} */
+
+.testimonials {
+  border: 2px solid var(--color-secondary);
+  width: 400px;
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media screen and (min-width: 768px) {
   /*
   NAVEGAÇÃO
